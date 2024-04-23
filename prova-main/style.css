@@ -1,0 +1,138 @@
+/* 
+    7 rows 
+    4 columns  
+*/
+
+body,html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CE7E7E;
+}
+
+.corpo {
+    background-color: gray;
+    height: 566x;
+    width: 356px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    grid-template-areas: ". . . hist"
+                         "result . . result"
+                         "ce c porc div"
+                         "sete oito nove multi"
+                         "quatro cinco seis subt"
+                         "um dois tres soma"
+                         "mais-menos n-zero virg igual";
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 12px;
+    
+}
+
+img {
+    width: 64px;
+    height: 64px;
+}
+
+.hist {
+    grid-area: hist;
+}
+
+.result {
+    grid-area: result;
+}
+
+.ce {
+    grid-area: ce;
+}
+
+.c {
+    grid-area: c;
+}
+
+.porc {
+    grid-area: porc;
+}
+
+.div {
+    grid-area: div;
+}
+
+.sete {
+    grid-area: sete;
+}
+
+.oito {
+    grid-area: oito;
+}
+
+.nove {
+    grid-area: nove;
+}
+
+.multi {
+    grid-area: multi;
+}
+
+.quatro {
+    grid-area: quatro;
+}
+
+.cinco {
+    grid-area: cinco;
+}
+
+.seis {
+    grid-area: seis;
+}
+
+.subt {
+    grid-area: subt;
+}
+
+.um {
+    grid-area: um;
+}
+
+.dois {
+    grid-area: dois;
+}
+
+.tres {
+    grid-area: tres;
+}
+
+.soma {
+    grid-area: soma;
+}
+
+.mais-menos {
+    grid-area: mais-menos;
+}
+
+.zero {
+    grid-area: n-zero;
+}
+
+.virg {
+    grid-area: virg;
+}
+
+.igual {
+    grid-area: igual;
+}
